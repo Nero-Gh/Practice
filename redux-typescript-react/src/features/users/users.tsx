@@ -1,7 +1,4 @@
 import { useEffect, useState } from "react";
-// import { useAppDispatch, useAppSelector } from "../../app/hooks";
-// import { User, addUser, userSelector } from "./userSlice";
-// import "./user.css";
 import { useAppDispatch, useAppSelector } from "../../app/hook";
 import { addUser, userSelector } from "./usersSlice";
 import { User } from "./types";
